@@ -1,0 +1,3 @@
+from .data_loading_test import StructuredDataTest
+from .feature_engineering_test import FeatureEngineeringTest
+from .model_test import SingleModelTest
