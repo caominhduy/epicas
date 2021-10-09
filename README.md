@@ -4,7 +4,7 @@
 
 ![Travis (.com)](https://img.shields.io/travis/com/caominhduy/epicas)
 ![PyPI - Status](https://img.shields.io/pypi/status/epicas)
-![PyPI - Python Version](https://img.shields.io/badge/python-v3.7.0%2B-blue)
+![PyPI - Python Version](https://img.shields.io/badge/python-v3.7.1%2B-blue)
 ![TensorFlow Version](https://img.shields.io/badge/tensorflow-v2.6.0%2B-brightgreen)
 ![statsmodels Version](https://img.shields.io/badge/statsmodels-v0.13.0%2B-brightgreen)
 ![GitHub last commit](https://img.shields.io/github/last-commit/caominhduy/epicas)
@@ -48,7 +48,7 @@ these two groups of interest.
 
 ## Installation
 
-Epicas is only compatible to Python 3.7 or later.
+Epicas is only compatible to Python 3.7.1 or later.
 
 It can be installed via the Python Package Index (PyPI).
 
