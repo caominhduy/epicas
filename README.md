@@ -2,6 +2,14 @@
 <img src="docs/images/epicas_logo.png" width=290 />
 </p>
 
+![Travis (.com)](https://img.shields.io/travis/com/caominhduy/epicas)
+![PyPI - Status](https://img.shields.io/pypi/status/epicas)
+![PyPI - Python Version](https://img.shields.io/badge/python-v3.7.0%2B-blue)
+![TensorFlow Version](https://img.shields.io/badge/tensorflow-v2.6.0%2B-brightgreen)
+![statsmodels Version](https://img.shields.io/badge/statsmodels-v0.13.0%2B-brightgreen)
+![GitHub last commit](https://img.shields.io/github/last-commit/caominhduy/epicas)
+
+
 **Epicas** stands for **Epi**demiological Fore**cas**ting. Epicas is an AutoML framework based on TensorFlow and statsmodels.
 
 ## Pipeline: What Can It Do?
@@ -26,11 +34,6 @@ disease outbreaks will happen. However, these predictions only matter if they
 are made **early and trustworthy enough** for extreme interventions to be
 made.
 
-The achievement of most AutoML frameworks is their ability to make machine
-learning more accessible to everyone. Keeping these use cases in mind, we tailored
-Epicas not only for everyone, but also specifically for the professionals who
-need it the most.
-
 The status quo:
 
 1. Public health officials, epidemiologists are those who have early access to
@@ -39,6 +42,9 @@ gold-standard data yet may feel uncomfortable building machine learning pipeline
 2. ML engineers, data scientists, scholars are the ones who usually join forecasting
 on a voluntary basis, thus having late access to good data and needing to get a
 model pipeline built quickly for fine-tuning.
+
+Epicas hopes to bring machine learning closer to everyone and specifically for
+these two groups of interest.
 
 ## Installation
 
@@ -91,7 +97,7 @@ merged = merged.lag_reduction(subset=['fb_movement_change', 'fb_stationary'], sl
 forecasts = epicas.Ensemble(merged, ['attention', 'ARIMA'], '2021-09-01').get_predict()
 ```
 
-This framework is being documented. At the moment, please read examples from [Jupyter notebooks.](https://github.com/caominhduy/epicas/docs/ipynb)
+This framework is being documented. At the moment, please read examples from [Jupyter notebooks.](https://github.com/caominhduy/epicas/tree/main/docs/ipynb)
 
 
 ## Development
@@ -110,6 +116,9 @@ Epicas is still under development, yet most basic usage is already functional (0
 - [ ] Weighted Average Ensemble
 - [ ] LIME/SHAP (blackbox model explainers)
 - [ ] RNN Hyperparameter Selecting
+
+All model questions or improvements are very welcomed! Please forward them to
+caominhduy@gmail.com or create a pull request.
 
 ## References
 <a id="1">[1]</a>
