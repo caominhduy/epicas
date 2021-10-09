@@ -24,7 +24,6 @@ This package is still under development. Feel free to contact developer at caomi
     packages=setuptools.find_packages(exclude=("tests",)),
     include_package_data=True,
     install_requires=[
-        'numpy>=1.17',
         'tensorflow>=2.6.0',
         'keras-self-attention>=0.50.0',
         'pandas>=1.2.4',
@@ -41,5 +40,5 @@ This package is still under development. Feel free to contact developer at caomi
         'machine learning',
         'TensorFlow'
         ],
-    python_requires='>=3.7.0'
+    python_requires='>=3.7.1'
 )
