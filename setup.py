@@ -24,12 +24,12 @@ This package is still under development. Feel free to contact developer at caomi
     packages=setuptools.find_packages(exclude=("tests",)),
     include_package_data=True,
     install_requires=[
+        'numpy>=1.17',
         'tensorflow>=2.6.0',
         'keras-self-attention>=0.50.0',
         'pandas>=1.2.4',
         'statsmodels>=0.13.0',
-        'tqdm',
-        'numpy'
+        'tqdm'
     ],
     keywords=[
         'AutoML',
